@@ -9,6 +9,7 @@ Convert a distance:
 
 Make use of the unit equivalencies:
 >>> e = 130. * u.eV
+Convert using the flux equivalency `J = c*h / m`
 >>> e.to(u.Angstrom, equivalencies=u.spectral())
 <Quantity 95.37245609234003 Angstrom>
 
